@@ -4,7 +4,7 @@ https://github.com/diesel-rs/diesel
 
 https://diesel.rs/guides/getting-started
 
-DIESEL
+## DIESEL
 
 A safe, extensible ORM and Query Builder for Rust, supported databases:
 
@@ -45,5 +45,23 @@ This outputs
 ```rust
 AST: [Query(Query { ctes: [], body: Select(Select { distinct: false, projection: [UnnamedExpr(Identifier("a")), UnnamedExpr(Identifier("b")), UnnamedExpr(Value(Long(123))), UnnamedExpr(Function(Function { name: ObjectName(["myfunc"]), args: [Identifier("b")], over: None, distinct: false }))], from: [TableWithJoins { relation: Table { name: ObjectName(["table_1"]), alias: None, args: [], with_hints: [] }, joins: [] }], selection: Some(BinaryOp { left: BinaryOp { left: Identifier("a"), op: Gt, right: Identifier("b") }, op: And, right: BinaryOp { left: Identifier("b"), op: Lt, right: Value(Long(100)) } }), group_by: [], having: None }), order_by: [OrderByExpr { expr: Identifier("a"), asc: Some(false) }, OrderByExpr { expr: Identifier("b"), asc: None }], limit: None, offset: None, fetch: None })]
 ```
+
+## wapm sqlite
+
+https://github.com/wapm-packages/sqlite
+
+https://github.com/wasienv/wasienv
+
+wapm install sqlite
+
+wapm run sqlite
+
+wapm run sqlite foobar.db
+
+
+
+
+
+
 
 
