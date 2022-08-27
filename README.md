@@ -48,6 +48,8 @@ AST: [Query(Query { ctes: [], body: Select(Select { distinct: false, projection:
 
 ## wapm sqlite
 
+https://wapm.io/sqlite/sqlite
+
 https://github.com/wapm-packages/sqlite
 
 https://github.com/wasienv/wasienv
