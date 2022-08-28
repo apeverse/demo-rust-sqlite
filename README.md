@@ -54,6 +54,8 @@ https://github.com/wapm-packages/sqlite
 
 https://github.com/wasienv/wasienv
 
+https://docs.wasmer.io/ecosystem/wasienv/compile-c-c++-to-wasm-wasi
+
 wapm install sqlite
 
 wapm run sqlite
@@ -61,8 +63,9 @@ wapm run sqlite
 wapm run sqlite foobar.db
 
 
-
-
+.quit
+.open
+.help
 
 
 
