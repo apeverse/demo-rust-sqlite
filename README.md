@@ -56,17 +56,27 @@ https://github.com/wasienv/wasienv
 
 https://docs.wasmer.io/ecosystem/wasienv/compile-c-c++-to-wasm-wasi
 
+https://www.sqlitetutorial.net/sqlite-commands
+
 wapm install sqlite
 
 wapm run sqlite
 
 wapm run sqlite foobar.db
 
-
-.quit
-.open
 .help
 
+.quit .exit
+
+.open
+
+.database
+
+.tables
+
+.table '%es'
+
+.schema table_name
 
 
 
