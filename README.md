@@ -70,19 +70,13 @@ wapm run sqlite
 
 wapm run sqlite foobar.db
 
-.help
-
-.quit .exit
-
-.open
-
-.database
-
-.tables
-
-.table '%es'
-
-.schema table_name
+- .help
+- .quit .exit
+- .open
+- .database
+- .tables
+- .table '%es'
+- .schema table_name
 
 
 
