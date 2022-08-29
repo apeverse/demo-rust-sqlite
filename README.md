@@ -58,6 +58,12 @@ https://docs.wasmer.io/ecosystem/wasienv/compile-c-c++-to-wasm-wasi
 
 https://www.sqlitetutorial.net/sqlite-commands
 
+wasmer --version
+
+export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
+
+wasmer self-update
+
 wapm install sqlite
 
 wapm run sqlite
