@@ -47,6 +47,9 @@ AST: [Query(Query { ctes: [], body: Select(Select { distinct: false, projection:
 ```
 
 ## wapm sqlite
+
+https://www.sqlite.org/download.html 可以下载类似 sqlite-wasm-3420000.zip 
+
 https://www.youtube.com/watch?v=KIpyg7uBz1Q
 
 https://webassembly.sh/?run-command=sqlite
@@ -81,5 +84,5 @@ wapm run sqlite foobar.db
 - .table '%es'
 - .schema table_name
 
-
+目前遗留的问题：foobar.db 本地文件，无法打开（foobar.db 是用rust程序创建的）。
 
