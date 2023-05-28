@@ -47,6 +47,7 @@ AST: [Query(Query { ctes: [], body: Select(Select { distinct: false, projection:
 ```
 
 ## wapm sqlite
+https://www.youtube.com/watch?v=KIpyg7uBz1Q
 
 https://webassembly.sh/?run-command=sqlite
 
