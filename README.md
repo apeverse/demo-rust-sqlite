@@ -74,7 +74,7 @@ wapm install sqlite
 
 wapm run sqlite
 
-wapm run sqlite foobar.db
+wapm run sqlite r7MJVvcf.db3
 
 - .help
 - .quit .exit
@@ -84,5 +84,15 @@ wapm run sqlite foobar.db
 - .table '%es'
 - .schema table_name
 
-目前遗留的问题：foobar.db 本地文件，无法打开（foobar.db 是用rust程序创建的）。
+常见问题：r7MJVvcf.db3 本地文件，无法打开（r7MJVvcf.db3 提前用rust程序创建好，并添加了表、插入了记录数据）
+
+解决方案：wapm run sqlite --dir .  （记得将本地目录映射到runtime中）
+
+.open r7MJVvcf.db3
+
+SELECT id, name, data FROM person;
+
+
+
+
 
